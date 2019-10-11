@@ -5,7 +5,7 @@ import com.haldny.domain.model.SuperHero
 
 class SuperHeroRepository {
     companion object {
-        private const val BIT_TIME = 1500L
+        private const val BIT_TIME = 3000L
         private const val TAG = "SuperHeroRepository"
     }
 

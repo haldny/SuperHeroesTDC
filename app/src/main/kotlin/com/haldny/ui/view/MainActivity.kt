@@ -66,7 +66,7 @@ class MainActivity : BaseActivity(), SuperHeroesPresenter.View {
         bind<SuperHeroesPresenter>() with provider {
             SuperHeroesPresenter(
                 this@MainActivity,
-                instance()
+                instance(), isAsync = true
             )
         }
 
